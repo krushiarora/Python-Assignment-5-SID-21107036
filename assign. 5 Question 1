@@ -1,0 +1,3 @@
+words = 'Welcome to the wotld of Python'
+>>> print(words[::-1])
+nohtyP fo dltow eht ot emocleW
