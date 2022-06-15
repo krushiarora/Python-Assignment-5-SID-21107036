@@ -1,3 +1,8 @@
-words = 'Welcome to the wotld of Python'
->>> print(words[::-1])
-nohtyP fo dltow eht ot emocleW
+str="java is string"
+print("the original string is:",str)
+reverse_string=""#empty string
+count=len(str)#find the length od the string
+while count>0:
+    reverse_string+=str[count-1]
+    count=count-1
+print("the reversed string is :",reverse_string)
